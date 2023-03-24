@@ -1,0 +1,32 @@
+@import '../abstract/variaveis';
+
+@mixin padrao-texto(){
+    font-size: $tamanho-titulo / 1.5;
+    font-weight: 700;
+    padding:2rem;
+    text-align: center;
+}
+
+.textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+    padding: 1rem;
+    h3{
+        @include padrao-texto;
+        color:$cor-quaternaria;
+    }
+    .lista{
+        display:flex;
+        align-items: center;
+        gap:3rem;
+        p{
+            @include padrao-texto;
+            background-color: $cor-quaternaria;
+            color:$cor-secundaria;
+            border-radius: 1rem;
+        }
+    }
+}   

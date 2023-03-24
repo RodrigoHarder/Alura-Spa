@@ -1,0 +1,188 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  background-color: #E5D9B6;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: #A4BE7B;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #285430;
+  transition: 0.1s;
+}
+ul li a:hover {
+  background-color: #285430;
+  color: #E5D9B6;
+  padding: 0.5rem;
+  border-radius: 3rem;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 2rem 4rem;
+  background-color: #E5D9B6;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.banner .inner-banner h1 {
+  font-size: 2rem;
+  color: #285430;
+}
+.banner .inner-banner h2 {
+  font-size: 1rem;
+  color: #285430;
+}
+
+.servicos {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+}
+.servicos h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #285430;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+  border-bottom: 3px solid #A4BE7B;
+  padding: 5px;
+  width: 200px;
+  align-self: center;
+}
+.servicos h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 200;
+}
+.servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+.servicos .cards .card .img-container img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.servicos .cards .card h5 {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  background-color: #285430;
+  color: #E5D9B6;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+.servicos .cards .card p {
+  margin-top: 1rem;
+  text-align: justify;
+  font-size: tamanho-titulo/1.5;
+  font-weight: 300;
+}
+
+.cupom {
+  background-color: #A4BE7B;
+  padding: 4rem;
+  text-align: center;
+}
+.cupom .texto {
+  color: #285430;
+}
+.cupom .texto h2 {
+  margin: 1rem;
+  font-size: 2rem;
+}
+.cupom .enviar-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.cupom .enviar-email .input {
+  margin: 1rem auto;
+  width: 300px;
+  font-size: 1rem;
+  color: #285430;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 3rem;
+  border: none;
+}
+.cupom .enviar-email .botao-enviar {
+  background-color: #E5D9B6;
+  color: #285430;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cupom .enviar-email .botao-enviar:hover {
+  background-color: #285430;
+  color: #E5D9B6;
+  transform: scale(1.1);
+}
+
+.textos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.textos h3 {
+  font-size: 1.3333333333rem;
+  font-weight: 700;
+  padding: 2rem;
+  text-align: center;
+  color: #285430;
+}
+.textos .lista {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.textos .lista p {
+  font-size: 1.3333333333rem;
+  font-weight: 700;
+  padding: 2rem;
+  text-align: center;
+  background-color: #285430;
+  color: #A4BE7B;
+  border-radius: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.3333333333rem;
+  background-color: #A4BE7B;
+  margin-top: 3rem;
+  padding: 1rem;
+  color: #285430;
+}/*# sourceMappingURL=estilos.css.map */

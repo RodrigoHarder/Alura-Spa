@@ -1,0 +1,48 @@
+@import '../abstract/variaveis';
+
+.cupom{
+    // background: linear-gradient(180deg, rgba(229,217,182,1) 0%, rgba(164,190,123,1) 37%, rgba(95,141,78,1) 100%);
+    background-color: $cor-secundaria;
+    padding:4rem;
+    text-align: center;
+    .texto{
+        color:$cor-quaternaria;
+        h2{
+            margin:1rem;
+            font-size:$tamanho-titulo;
+        }
+    }
+    .enviar-email{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        .input{
+            margin: 1rem auto;
+            width: 300px;
+            font-size: $tamanho-titulo / 2;
+            color:$cor-quaternaria;
+            padding:0.5rem;
+            text-align: center;
+            border-radius: 3rem;
+            border:none;
+        }
+        .botao-enviar{
+            background-color: $cor-primaria;
+            color:$cor-quaternaria;
+            font-size: $tamanho-titulo / 2;
+            font-weight: 700;
+            padding:0.5rem 1rem;
+            border-radius: 1.5rem;
+            border:none;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover{
+                background-color: $cor-quaternaria;
+                color:$cor-primaria;
+                transform: scale(1.1);
+            }
+        }
+    }
+    
+}
