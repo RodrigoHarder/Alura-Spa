@@ -20,10 +20,6 @@ Desenvolvimento do projeto Alura Spa no curso de [SASS: CSS sintaticamente espe
 - Realizamos operações matemáticas para ajustar os tamanho dos textos
 - Diferenças entre arquivos `.sass` e `.scss`;
 
-## **Funcionalidades**
-
-Para ter acesso ao projeto e tudo que ele possui basta clicar [neste link](https://rodrigoharder.github.io/alura-spa/).
-
 ## **Como usar os arquivos?**
 
 - Inicialmente você precisa ter instalado em seu computador um editor de código-fonte, no meu caso eu utilizo o [Visual Studio Code](https://code.visualstudio.com/download). 
